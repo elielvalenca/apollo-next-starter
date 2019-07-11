@@ -6,6 +6,7 @@ export default class Index extends React.Component {
         return(
             <div>
                 <h1>Home</h1>
+                {JSON.stringify(process.env)}
             </div>
         )
     }
