@@ -39,8 +39,8 @@ class Application extends App {
                     <ThemeProvider theme={theme}>
                         <React.Fragment>
                             <Normalize/>
-                            <AddGlobals/>
                             <Meta/>
+                            <AddGlobals/>
                             <Component { ... pageProps }/>
                         </React.Fragment>
                     </ThemeProvider>

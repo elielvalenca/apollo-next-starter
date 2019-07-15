@@ -37,6 +37,7 @@ export const GlobalStyle = css`
         max-width: 100%;
     }
     a {
+        
         color: ${theme.colors.tertiary};
         text-decoration: none;
         &:hover,
@@ -46,16 +47,27 @@ export const GlobalStyle = css`
             cursor: pointer;
         }
     }
+
+    button,
+    a {
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+
     h1,h2,h3,h4,h5,h6 {
         margin: 0;
         font-family: ${theme.fonts.title};
         font-weight: 900;
     }
+
     label,
     button {
         font-family: ${theme.fonts.title};
         font-weight: 900;
     }
+    
     fieldset {
             border: none;
             padding: 0;
